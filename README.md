@@ -1,5 +1,5 @@
 # Cloudflare Workers OpenAI OIDC SSO 
-
+ 
 這是一個部署於 Cloudflare Workers 的 Custom OIDC SSO Provider，用於對接 OpenAI SSO。使用者登入時只輸入帳號；註冊新帳號時需要輸入邀請碼。系統會把帳號固定轉成 `ACCOUNT_DOMAIN` 指定的信箱域名。已建立帳號之後仍可登入，不會再消耗邀請碼。
 
 ## 功能
